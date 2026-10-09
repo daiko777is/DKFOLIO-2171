@@ -1,6 +1,6 @@
 # web
 
-Unified server — serves both the Hono API under `/api` and the React frontend from a single Bun.serve process.
+The main portfolio application. React SPA with server-side rendering support.
 
 ## Run
 
@@ -8,11 +8,10 @@ Unified server — serves both the Hono API under `/api` and the React frontend 
 bun run dev
 ```
 
-The server port is configured automatically.
+Port: 5173
 
-## Typecheck and build
+## Build
 
 ```bash
-bun run typecheck
 bun run build
 ```
