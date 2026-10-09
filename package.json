@@ -1,15 +1,13 @@
 {
-  "name": "portfolio",
+  "name": "daiko-portfolio",
   "private": true,
   "packageManager": "bun@1.3.14",
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
-    "dev": "cd packages/web && bunx vite",
+    "dev": "cd packages/web && bun run dev",
     "build": "cd packages/web && bun run build",
+    "preview": "cd packages/web && bun run preview",
     "typecheck": "cd packages/web && bun run typecheck",
-    "preview": "cd packages/web && bun run preview"
+    "start": "cd packages/web && bun run start"
   },
   "devDependencies": {
     "@types/bun": "1.3.14",
