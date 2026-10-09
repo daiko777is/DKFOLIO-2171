@@ -1,35 +1,36 @@
 # DAIKO Portfolio
 
-A clean standalone portfolio website built with React, TypeScript, and Vite.
+A clean, standalone portfolio website built with React, TypeScript, Tailwind CSS, and Vite.
 
-## Run locally
+## Quick Start
 
 ```bash
 bun install
 bun run dev
 ```
 
-## Build and preview
+The site will be available at `http://localhost:5173`
+
+## Build
 
 ```bash
 bun run build
 bun run preview
 ```
 
-## Project structure
+## Technology Stack
 
-```text
-.
-├── package.json
-├── packages/
-│   └── web/
-│       ├── index.html
-│       ├── public/
-│       ├── src/
-│       ├── package.json
-│       ├── tsconfig.json
-│       └── vite.config.ts
-└── .gitignore
-```
+- **React 19** - UI framework
+- **TypeScript** - Type safety
+- **Vite** - Build tool
+- **Tailwind CSS** - Styling
+- **Wouter** - Routing
+- **Framer Motion** - Animations
 
-This repository is kept as a small, maintainable portfolio app. The platform scaffold and template-only tooling were removed to keep only the product code.
+## Features
+
+- Bilingual (ES/EN) with file-based routing
+- Responsive design
+- Dark theme portfolio
+- Smooth animations
+- Fast build and development experience
